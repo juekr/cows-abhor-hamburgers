@@ -1,0 +1,10 @@
+.env
+*.env
+service-account-secret.json
+*.idlk
+vendor/
+/vendor/
+composer.lock
+~*.*
+*.zip
+data/

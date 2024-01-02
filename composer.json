@@ -1,0 +1,25 @@
+{
+    "name": "juergen.krauss/brandad-against-humanity",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "JuergenKrauss\\BrandadAgainstHumanity\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jürgen Krauß",
+            "email": "juergen@es-ist-ein-krauss.de"
+        }
+    ],
+    "require": {
+        "juekr/googlesheetsapi": "dev-main",
+        "cheprasov/php-cli-args": "^3.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:juekr/GoogleSheetsAPI.git"
+        }
+    ]
+}
